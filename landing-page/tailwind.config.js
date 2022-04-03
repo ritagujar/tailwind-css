@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       colors: {
         buttonGreen: "#58E483",
+        black: "#050609",
       },
       fontSize: {
         xl: "1.7rem",
