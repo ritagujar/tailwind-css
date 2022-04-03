@@ -65,58 +65,45 @@ const Navbar = () => {
         />
 
         {toggleMenu && (
-          <div className="flex fixed left-0 top-0  w-full  bg-white">
+          <div className="flex fixed left-0 top-0 justify-center w-full items-center h-full bg-white">
             <RiCloseLine
               color="#000"
-              size={45}
+              size={40}
               onClick={() => setToggleMenu(false)}
-              className="cursor-pointer absolute top-7 right-12"
+              className="cursor-pointer absolute top-3 right-9"
             />
             <ul className="flex text-gray-500 text-lg list-none flex-col  ">
-              <li className="mr-6  hover:text-green-300 text-center">
+              <li className=" hover:text-green-300 text-center m-3 text-4xl">
                 <a href="/" className="tracking-wide ">
                   About
                 </a>
               </li>
-              <li className="mr-6 hover:text-green-300 text-center">
+              <li className=" hover:text-green-300 text-center m-3 text-4xl">
                 <a href="/" className="tracking-wide">
                   Product
                 </a>
               </li>
-              <li className="mr-6 hover:text-green-300 text-center">
+              <li className="hover:text-green-300 text-center m-3 text-4xl">
                 <a href="/" className="tracking-wide">
                   Customer
                 </a>
               </li>
-              <li className="mr-6 hover:text-green-300 text-center">
+              <li className="hover:text-green-300 text-center m-3 text-4xl">
                 <a href="/" className="tracking-wide">
                   Prices
                 </a>
               </li>
-              <li className="mr-6 hover:text-green-300 text-center">
+              <li className="hover:text-green-300 text-center m-3 text-4xl">
                 <a href="/" className="tracking-wide">
                   Our team
                 </a>
               </li>
-              <li className="mr-6 hover:text-green-300 text-center">
+              <li className=" hover:text-green-300 text-center m-3 text-4xl">
                 <a href="/" className="tracking-wide">
                   Blog
                 </a>
               </li>
             </ul>
-            {/* <div className="flex items-center">
-              <li className="list-none">
-                <a
-                  href="/"
-                  className="text-buttonGreen text-lg font-semibold hover:text-green-300 tracking-wide"
-                >
-                  Log in
-                </a>
-              </li>
-              <button className="ml-8 bg-buttonGreen h-9 w-24 font-medium hover:bg-green-300 tracking-wide">
-                Get Stated
-              </button>
-            </div> */}
           </div>
         )}
       </div>
