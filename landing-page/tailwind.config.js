@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        green: "#58E483",
+        buttonGreen: "#58E483",
       },
       fontSize: {
         xl: "1.7rem",
